@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        *{margin: 0; padding: 0; box-sizing: border-box;}
+        div{width: 500px; height: 500px; 
+            border: 10px solid gray;
+            display: flex; color: white;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 20px;
+        }
+        p{width: 100px; height: 100px; float: left;}
+        #box1{background-color: red; font-size: 2em;}
+        #box2{background-color: #ff0;font-size: 2em;}
+        #box3{background-color: #00f;font-size: 2rem;}
+        #box4{background-color: #f0f;}
+    </style>
+</head>
+<body>
+    <div>
+        <p id="box1">박스1</p>
+        <p id="box2">박스2</p>
+        <p id="box3">박스3</p>
+       <!--<p id="box4">박스4</p>g!-->
+    </div>
+</body>
+</html>

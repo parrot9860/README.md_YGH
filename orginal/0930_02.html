@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 선택자</title>
+    <style>
+        h1 {color: red}
+        #header{color: orange; background-color: red; width: 300px; height: 100px;}
+        p{color: #00f000;}
+        .yellow{background-color: #fff000; width: 500px; height: 150px;}
+        .blue{color: blue;}
+        h1{color: cyan}
+    </style>
+</head>
+<body>
+     <div>
+        <h1 id="header">html 기본</h1>
+        <ul>
+            <li><a href="">메뉴 - 1</a></li>
+            <li><a href="" class="blue">메뉴 - 2</a></li>
+            <li><a href="">메뉴 - 3</a></li>
+        </ul>
+     </div>
+     <div class="yellow">
+        <h1>Lorem, ipsum dolor.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, dolorem.</p>
+     </div>
+     <div class="yellow">
+        <h1>Lorem, ipsum dolor.</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque, fugit!</p>
+     </div>
+     <div>
+        <span>서울특별시 강서구 내발산동</span>
+        <span class="blue">02-7777-1234</span>
+    </div>
+</body>
+</html>

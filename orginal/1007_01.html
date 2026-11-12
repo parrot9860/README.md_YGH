@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>선택자</title>
+    <style>
+        #wrap{width: 600px;}
+        #header{background-color: #ff0; width: 600px;}
+        #section{background-color: pink;}
+        #footer{background-color: green;}
+        h1{color:red;}
+        #section h1{color: hotpink;}
+        .blue{color: #00f}
+        #header h1{color: blue;}
+        #header>h1{color: green;}
+
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div id="header">
+            <h1>헤더영역</h1>
+            <div id="nav">
+                <h1 class="blue">메인메뉴</h1>
+                <ul>
+                    <li>메뉴 -1</li>
+                    <li>메뉴 -2</li>
+                    <li>메뉴 -3</li>
+                    <li>메뉴 -4</li>
+                </ul>
+            </div>
+        </div>
+        <div id="section">
+        <div>
+            <h1 class="blue">소제목01</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis nihil labore, quaerat dolorum consequuntur modi itaque suscipit? Voluptatem ipsam fugiat in. Obcaecati eos recusandae error rem cum voluptate dolores labore.</p>
+        </div>
+        <div>
+            <h1 class="blue">소제목02</h1>
+            <p>Eum, esse voluptatibus? Dolore, autem assumenda eligendi labore molestias quibusdam debitis recusandae provident inventore id et perspiciatis eos ipsa eius dolorum sed ut numquam reiciendis doloribus culpa mollitia repellendus porro?</p>
+        </div>
+        </div><!--#section end-->
+        <div id="footer">
+            <p>Lorem, ipsum dolor.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, deserunt.</p>
+
+        </div>
+    </div>
+</body>
+</html>

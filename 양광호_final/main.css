@@ -1,0 +1,19 @@
+/* 초기화 */
+*{margin:0; padding:0; box-sizing: border-box;}
+ul li{list-style: none;}
+a, a:link, a:visited{text-decoration: none; color: inherit;}
+/*기본CSS*/
+
+.container{width: 1140px; margin: 0 auto;
+            border: 1px solid red;}
+/*헤더영역*/
+header{border: 5px solid blue; padding: 1rem;
+background-color: black; color: aliceblue;}
+header .container{width: 100%;
+    display: flex; justify-content: space-between;
+    align-items: center;
+    /*background-color: black; color: aliceblue;*/
+}
+header h1{font-size: 2.5rem;}
+header nav ul{display: flex;}
+header nav ul li{padding: 10px 15px;font-size: 1.3rem;}
